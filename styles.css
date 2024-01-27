@@ -1,15 +1,10 @@
 body {
   text-align: center;
-  /* background-color:   #21033b; */
-  background-image: url('./images/club-img1.jpg');
+  background-color:   #440080;
+  /* background-image: url('./images/club-img1.jpg'); */
 }
 
-.container {
-  margin-top: 100px;
-  display: flex;
-  /* align-items: ; */
-  flex-direction: column;
-}
+
 .item-1{
   margin:10px;
 }
@@ -28,6 +23,7 @@ h1 {
 footer {
   color: #dbedf3;
   font-family: sans-serif;
+  margin-top: 10%;
 }
 
 /* .set {
