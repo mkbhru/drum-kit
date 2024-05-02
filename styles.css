@@ -41,7 +41,7 @@ footer {
 
 .drum {
   outline: none;
-  border: 10px solid #404b69;
+  border: 10px solid #000000;
   font-size: 5rem;
   font-family: "Arvo", cursive;
   line-height: 2;
@@ -54,24 +54,24 @@ footer {
   height: 150px;
   text-align: center;
   margin: 10px;
-  background-color: white;
+  background-color: rgb(254, 147, 147);
 }
 .trap {
   outline: none;
-  border: 10px solid #404b69;
+  border: 10px solid #6800ad;
   font-size: 2rem;
   font-family: "Arvo", cursive;
   line-height: 2;
   font-weight: 900;
-  color: #f09137;
+  color: #54493f;
   text-shadow: 3px 0 #dbedf3;
   border-radius: 15px;
   display: inline-block;
   width: 150px;
-  height: 100px;
+  height: 80px;
   text-align: center;
   margin: 10px;
-  background-color: white;
+  background-color: rgb(210, 155, 155);
 }
 
 @media (max-width: 1000px) {
@@ -83,3 +83,6 @@ footer {
     display: block;
   }
 }
+
+
+/* disk */
