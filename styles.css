@@ -21,9 +21,11 @@ h1 {
 }
 
 footer {
-  color: #dbedf3;
-  font-family: sans-serif;
-  margin-top: 10%;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: #54493f;
+  font-weight: bold;
+  margin-top: 5%;
 }
 
 /* .set {
@@ -33,6 +35,14 @@ footer {
 .pressed {
   box-shadow: 0 3px 4px 0 #dbedf3;
   opacity: 0.5;
+}
+
+.reset{
+  height: 25px;
+  width: 60px;
+  font-weight: bold;
+  color: red;
+  border: solid rgb(234, 106, 106);
 }
 
 .red {
@@ -50,7 +60,7 @@ footer {
   text-shadow: 3px 0 #dbedf3;
   border-radius: 15px;
   display: inline-block;
-  width: 150px;
+  width: 120px;
   height: 150px;
   text-align: center;
   margin: 10px;

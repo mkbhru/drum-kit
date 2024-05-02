@@ -21,6 +21,9 @@ for (var i = 0; i < numberOfTrapButtons; i++) {
     buttonAnimation(buttonInnerHTML);
   });
 }
+document.getElementById("reloadButton").addEventListener("click", function () {
+  window.location.reload();
+});
 
 document.addEventListener("keypress", function (event) {
   makeSound(event.key);
@@ -49,28 +52,28 @@ function makeSound(key) {
       var tom4 = new Audio("beats/tom-4.mp3");
       tom4.play();
       break;
-
+    case "h":
+      var kick = new Audio("beats/left_crash_semicolon.mp3");
+      kick.play();
+      break;
     case "j":
       var snare = new Audio("beats/snare.mp3");
       snare.play();
       break;
 
-    case "k":
+    case "g":
       var crash = new Audio("beats/crash.mp3");
       crash.play();
       break;
 
-    case "l":
+    case "k":
       var kick = new Audio("beats/bass-hit.mp3");
       kick.play();
       break;
-    case ";":
-      var kick = new Audio("beats/left_crash_semicolon.mp3");
-      kick.play();
-      break;
+
     case "q":
       var kick = new Audio("traps/trap_1.mp3");
-      console.log("hello")
+      console.log("hello");
       kick.play();
       break;
     case "w":
